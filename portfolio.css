@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+    background-color: rgb(0, 19, 54);
+    font-family: 'Poppins',sans-serif;
+    margin : 6em;
+    margin-top : 0;
+}
+
+.header{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 2em;
+    color: white;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.header ul li{
+float: left;
+height: 100%;
+padding: 6px;
+margin-right: 3em;
+font-size: 1em;
+font-family: 'Poppins',sans-serif;
+transition: .3s;
+}
+
+.header ul li:hover{
+    color : dodgerblue;
+    transition: .3s;
+}
+
+.about{
+    display: flex;
+    height: 90vh;
+    color: white;
+}
+
+.ab{
+    margin: 1.2em;
+    width: 50%;
+}
+
+.image{
+    display: flex;
+    width: 52%;
+    justify-content: center;
+    align-items: center;
+}
+
+.image img{
+    height: 21em;
+    width: 21em;
+    border-radius: 12px;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.image img:hover{
+    transform: translate(6px,6px);
+    transition: .3s;
+}
+
+.projects{
+    text-align: center;
+    margin : 6em;
+    display: flex;
+    flex-direction: column;
+}
+
+.project{
+    margin: 6em;
+    padding: 24px;
+    min-height: 8em;
+    color: white;
+    position: relative;
+    text-align: left;
+    cursor: pointer;
+    border-radius: 6px;
+    overflow-y:scroll;
+    background-color: rgb(3, 40, 108);
+    transition:.5s;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.project:hover{ 
+   box-shadow: 1px 2px 9px 0px black;
+   transition: .5s;
+}
+
+.project p{
+    margin-top: 3em;
+}
+
+.project img{
+    height: 4.8em;
+    width: 4.8em;
+}
+
+.social {
+    margin : 1.2em;
+    display: flex;
+    width: 30%;
+    justify-content: space-around;
+    border-radius: 1em;
+}
+
+.social a{
+    padding : 12px;
+    font-size: 2em;
+    background-color: transparent;
+}
+
+.twitter:hover{
+    transition: .3s;
+    color: dodgerblue;
+}
+
+.facebook:hover{
+    transition : .3s;
+    color : rgb(39, 39, 255);
+}
+
+.linkedin:hover{
+    transition: .3s;
+    color : skyblue
+}
+
+.github:hover{
+    transition: .3s;
+    color : black
+}
+
+.skills{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12px;
+    margin : 18px;
+}
+
+.skill{
+    height : 10em;
+    width: 10em;
+    margin : 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .3s;
+}
+
+.skill:hover{
+    filter :drop-shadow(6px 6px 180px dodgerblue);
+    transition: .3s;
+}
+
+.skill img{
+    width : 100%;
+    height: auto;
+}
+
+.skill i{
+    font-size: 4em;
+}
+
+#type{
+    display: none;
+}
+
+.up{
+    border: 2px solid white;
+    position: fixed;
+    right: 1.2em;
+    bottom: 24px;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    background-color: dodgerblue;
+    cursor: pointer;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}

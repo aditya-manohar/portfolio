@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="portfolio.js" defer></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <title>PortFolio</title>
+</head>
+<body onload="typing()">
+    <div class="container">
+        <div class="header">
+            <ul>
+               <a href="#skills"><li>Skills</li></a> 
+               <a href="#projects"><li>Projects</li></a>
+                <a href="#about"><li>About</li></a>
+                <a href="#resume"><li>Resume</li></a>
+                <a href="#contact"><li>Contact</li></a>
+            </ul>
+        </div>
+
+        <div class="about" id="about">
+            
+            <div class="ab">
+                <h1>Hi there, I'm <br><span style="color:aqua;font-family:'Courier New', Courier, monospace">Aditya Manohar</span> 👋</h1><br>
+            <h3>Web Developer</h3><br>
+            <p style="font-size: 1.2em;font-family: Verdana, Geneva, Tahoma, sans-serif;color:rgb(147, 203, 253)">I am a passionate and driven web developer with a commitment to crafting immersive online experiences.
+                I specialize in crafting responsive, user-friendly interfaces using HTML5, CSS3, and JavaScript. My obsession with clean code ensures a seamless user experience on all devices.<br><br>
+            </p>
+            <p id="type"></p>
+
+            <div class="social">
+                <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/aditya-manohar-892969288/" target="_blank" class="linkedin"><i class="fa fa-linkedin"></i></a>
+                <a href="https://www.github.com/aditya-manohar/" target="_blank" class="github"><i class="fa fa-github"></i></a>
+                <a href="mailto:adityamanohar2004@gmail.com" target="_blank" class="mail"><i class="fa fa-envelope"></i></a>
+            </div>
+            </div>
+            
+            <div class="image">
+                <img src="manohar.jpg" alt="profile"/>
+            </div>
+        </div>
+
+        <div class="skills" id="skills">
+            <div class="skill">
+                <img src="html-5.png" alt="">
+            </div>
+
+            <div class="skill">
+                <img src="css-3.png" alt="">
+            </div>
+
+            <div class="skill">
+                <img src="js.png" alt="">
+            </div>
+
+            <div class="skill">
+                <img src="react.png" alt="">
+            </div>
+
+            <div class="skill">
+                <img src="php.png" alt="">
+            </div>
+        </div>
+
+        <div class="projects" id="projects">
+
+            <h2 style="color: aliceblue;">Recent Projects</h2><br>
+
+            <div class="project" data-aos="zoom-in" data-aos-duration="1000">
+                <img src="voice-assistant.png" alt=""><br><br>
+                <h3>M Assistant</h3><br>
+                    <p><b>M Assistant</b> is a digital voice assistant Chrome Extension developed using React JS. This assistant works at your voice commands like browsing, searching for people on wikipedia, search for songs and playlists, play songs in YouTube etc.</p>
+            </div>
+
+            <div class="project" data-aos="fade-down-left" data-aos-duration="1000">
+                <img src="qr-code.png" alt=""><br><br>
+                <h3>QReady</h3><br>
+                <p><b>QReady</b> is a QR generator which generates QR codes for various purposes like messaging, saving contacts, notes etc in your device.</p>
+            </div>
+            <div class="project" data-aos="fade-up-right" data-aos-duration="1000">
+                <img src="puzzle.png" alt=""><br><br>
+                <h3>Word Game</h3><br>
+                <p>This is a simple <b>Word game</b> project developed using HTML,CSS and JS. It is a simple and fun game.</p>
+            </div>
+            <div class="project" data-aos="fade-up-left" data-aos-duration="1000">
+                <img src="aipic.png" alt=""><br><br>
+                <h3>AI Pickture</h3><br>
+                <p><b>AI Pickture</b> is a React App which generates images based on the input. An AI based API has been integrated to the project, so that AI generates the images based on the input given.</p>
+            </div>
+            <div class="project" data-aos="fade-up-left" data-aos-duration="1000">
+                <img src="bitcoin.png" alt=""><br><br>
+                <h3>Crypto</h3><br>
+                <p><b>Crypto</b> is a simple web application developed in React JS which depicts real time analysis of up to 2000 cryptocurrencies. You can search for cryptocurrencies and filter cryptocurrencies based on the ranks of the currencies.</p>
+            </div>
+            <div class="project" data-aos="fade-right" data-aos-duration="1000">
+                <img src="film-slate.png" alt=""><br><br>
+                <h3>Movie Renderer</h3><br>
+                <p><b>Movie Renderer</b> is developed in React JS which renders movies based on your search. You can search movies and web-series. An API has been integrated to fetch data from the backend based on the search.</p>
+            </div>
+
+            <div class="project" data-aos="fade-left" data-aos-duration="1000">
+                <img src="picture.png" alt=""><br><br>
+                <h3>Foto Folio</h3><br>
+                <p><b>Foto Folio</b> is developed in React JS which renders images based on your search. You can search wide variety of images. An API has been integrated to fetch data from the backend based on the search.</p>
+            </div>
+
+            <div class="project" data-aos="fade-right" data-aos-duration="1000">
+                <img src="flames.png" alt=""><br><br>
+                <h3>F.L.A.M.E.S</h3><br>
+                <p><b>FLAMES</b> is a fun game developed using HTML,CSS and JS. The logic behind the game is executed in JS.</p>
+            </div>
+
+            <div class="project" data-aos="fade-left" data-aos-duration="1000">
+                <img src="image-editing.png" alt=""><br><br>
+                <h3>Image Editor</h3><br>
+                <p>This is a simple Image Editor developed in React JS. We can upload images and edit them in this app and download the edited image into our device</p>
+            </div>
+
+            <div class="project" data-aos="flip-left" data-aos-duration="1000">
+                <img src="emotion.png" alt=""><br><br>
+                <h3>Sentiment Analysis</h3><br>
+                <p><b>Sentimental Analysis</b> is developed in React JS which takes in an input an detects the emotion of the user based on the input given.</p>
+            </div>
+
+            <div class="project" data-aos="flip-right" data-aos-duration="1000">
+                <img src="music-player.png" alt=""><br><br>
+                <h3>Music Player</h3><br>
+                <p>A simple, static, responsive and functional music player developed using HTML,CSS and JS.</p>
+            </div>
+
+
+        </div>
+
+        <div class="up" id="up" onclick="topScroll()">
+          <i class="fa fa-arrow-up"></i> 
+        </div>
+
+
+    </div>
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
